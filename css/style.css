@@ -1,0 +1,87 @@
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.content-section{
+	
+}
+
+.identity{
+	margin: 0px 0px;
+}
+
+.professional-links a{
+	width: 120px;
+	margin-bottom: 16px;
+	font-size: 1.3em;
+}
+
+.profile-photo{
+	height: 180px;
+	width: 180px;
+	overflow: hidden;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.section-title{
+	padding-bottom: 15px;
+}
+
+.resume-section{
+	border-top: solid 1px #e7e7e7;
+	background-color: #f0f0f0;
+}
+
+.resume-section p{
+	text-indent: 50px;
+	font-size: 16px;
+}
+
+.resume-section small{
+	color: #999;
+}
+
+.work-section{
+	border-top: solid 1px #e0e0e0;
+	background-color: #e7e7e7;
+}
+
+.thumbnail{
+	min-height: 210px;
+}
+
+.thumbnail a img{
+	max-height: 200px;
+}
+
+.thumbnail a:hover,.thumbnail a:visited,.thumbnail a:link,.thumbnail a:active
+{
+    text-decoration: none;
+}
+
+.thumbnail:hover{
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+
+footer{
+	background-color: #999;
+	height: 40px;
+	text-align: center;
+}
+
+footer a{
+	padding: 10px 20px 0px 20px;
+	color: #fff;
+}
